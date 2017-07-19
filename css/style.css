@@ -1,10 +1,3 @@
-/*
- * A Design by GraphBerry
- * Author: GraphBerry
- * Author URL: http://graphberry.com
- * License: http://graphberry.com/pages/license
- */
-
 /* Table of content
 1.General - This is created general styles and overide some bootstrap classes.
 2.Layout
@@ -209,7 +202,7 @@ p {
     display:inline-block;
     border:1px solid #181A1C;
     color:#181A1C;
-    background-color:transparent;
+    background-color:#FECE1A;
     padding:15px 30px;
     font-size:17px;
     line-height:auto;
@@ -286,7 +279,7 @@ p {
 .thumbnail h3 {
     color: #FECE1A;
     margin-top:10px;
-    font-size:20px;
+    font-size:25px;
 }
 .thumbnail > p {
     padding-bottom:20px;
@@ -413,8 +406,8 @@ p {
     padding-top:15px;
 }
 .service p {
-    padding:0px 50px;
-    height:60px;
+    padding:0px;
+    text-align: left;
 }
 .service img {
     width:150px;
@@ -496,6 +489,7 @@ p {
 }
 .team .thumbnail .mask h2 {
     margin-top:20%;
+    font-size: 30px;
 }
 .team .thumbnail .mask, .team .thumbnail .mask h3, .team .thumbnail .mask p, .team .thumbnail:hover h3, .team .thumbnail:hover .social a:hover {
     color:#181A17;
@@ -594,7 +588,7 @@ p {
 .testimonial .whopic small {
     display:block;
     font-size:12px;
-    
+    font-style: italic;
 }
 .testimonial-text{
     display:block;
