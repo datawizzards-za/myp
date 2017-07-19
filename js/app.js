@@ -45,6 +45,20 @@
     });
 
     //Initial Out clients slider in client section
+    $('#partner-slider').bxSlider({
+        pager: false,
+        minSlides: 1,
+        maxSlides: 5,
+        moveSlides: 2,
+        slideWidth: 210,
+        slideMargin: 25,
+        prevSelector: $('#partner-prev'),
+        nextSelector: $('#partner-next'),
+        prevText: '<i class="icon-left-open"></i>',
+        nextText: '<i class="icon-right-open"></i>'
+    });
+
+    //Initial Out clients slider in client section
     $('#clint-slider').bxSlider({
         pager: false,
         minSlides: 1,

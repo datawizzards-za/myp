@@ -75,7 +75,7 @@
                         <h2 class="fittext2">Welcome to MYP</h2>
                         <h4>Clean & responsive</h4>
                         <p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane.</p>
-                        <a href="#" class="da-link button">Read more</a>
+                        <a href="#portfolio" class="da-link button">Read more</a>
                         <div class="da-img">
                             <img src="images/Slider01.png" alt="image01" width="320">
                         </div>
@@ -86,7 +86,7 @@
                         <h2>Easy management</h2>
                         <h4>Easy to use</h4>
                         <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                        <a href="#" class="da-link button">Read more</a>
+                        <a href="#portfolio" class="da-link button">Read more</a>
                         <div class="da-img">
                             <img src="images/Slider02.png" width="320" alt="image02">
                         </div>
@@ -97,7 +97,7 @@
                         <h2>Revolution</h2>
                         <h4>Customizable</h4>
                         <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                        <a href="#" class="da-link button">Read more</a>
+                        <a href="#portfolio" class="da-link button">Read more</a>
                         <div class="da-img">
                             <img src="images/Slider03.png" width="320" alt="image03">
                         </div>
@@ -118,7 +118,7 @@
         <!-- About us section start -->
         <div class="section primary-section" id="about">
             <div class="triangle"></div>
-            <div class="container">
+            <div class="container fadeInDown animated">
                 <div class="title">
                     <h1>Masemola Young Professionals</h1>
                     <h3>Our Village. Our Pride.</h3>
@@ -127,7 +127,7 @@
                     </p>
                 </div>
                 
-                <div class="row-fluid">
+                <div class="row-fluid fadeInDown animated">
                     <div class="span4">
                         <div class="centered service">
                             <h3>Values</h3>
@@ -160,7 +160,7 @@
                 <div class="row-fluid team">
                     <div class="span6" id="first-person">
                         <div class="thumbnail">
-                            <img src="images/exco/Marule2.jpeg" alt="Marule Mahlase">
+                            <img src="images/exco/Ngwato.jpg" alt="Marule Mahlase">
                             <h3>Marule Mahlase</h3>
                             <ul class="social">
                                 <li>
@@ -182,7 +182,9 @@
                             <div class="mask">
                                 <h2>Chaiperson</h2>
                                 <p>
-                                    Bio
+                                    Marule is an admitted attorney of the high court. 
+                                    He is an experienced legal advisor with expertise in litigation and legal compliance.
+                                    A highly dedicated community servant with a passion for mentoring of protégées.
                                 </p>
                             </div>
                         </div>
@@ -231,7 +233,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a target="_blank" href="#">
+                                    <a target="_blank" href="https://twitter.com/phaphedib">
                                         <span class="icon-twitter-circled"></span>
                                     </a>
                                 </li>
@@ -244,14 +246,16 @@
                             <div class="mask">
                                 <h2>General Secretary</h2>
                                 <p>
-                                    Bio
+                                    Phaphedi holds a baccalaureus technologiae in HR. 
+                                    An experienced HR professional with more than 15 years in the state owned enterprises.
+                                    He is one of the founding members of MYP.
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div class="span3" >
                         <div class="thumbnail">
-                            <img src="images/Team1.png" alt="Ferdinand Mokete">
+                            <img src="images/exco/Ferdinand.jpg" alt="Ferdinand Mokete">
                             <h3>Ferdinand Mokete</h3>
                             <ul class="social">
                                 <li>
@@ -273,14 +277,15 @@
                             <div class="mask">
                                 <h2>Treasury</h2>
                                 <p>
-                                    Bio
+                                    Ferdinand is a charted accountant by profession with a strong passion of teaching. 
+                                    He is a trusted professional advisor with intense involvement in professional development of others.
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div class="span3" >
                         <div class="thumbnail">
-                            <img src="images/Team1.png" alt="Jafta Tshebesebe">
+                            <img src="images/exco/JT.jpg" alt="Jafta Tshebesebe">
                             <h3>Jafta Tshebesebe</h3>
                             <ul class="social">
                                 <li>
@@ -302,7 +307,8 @@
                             <div class="mask">
                                 <h2>Fundraising</h2>
                                 <p>
-                                    Bio
+                                    Jafta is an accountant by profession. 
+                                    He believes communities can only move forward if they embrace passionate minds and learn from each other.
                                 </p>
                             </div>
                         </div>
@@ -331,8 +337,7 @@
                             <div class="mask">
                                 <h2>Public Relations</h2>
                                 <p>
-                                    Mabu Manaileng is a computer scientist by education.
-                                    He is passionate about the role of technology and education for large scale social trasformation.
+                                    Mabu holds a masters degree in computer science. He is passionate about the role of technology and education for large scale social trasformation.
                                     "When I grow up, I want to be like Malala Yousafzai."
                                 </p>
                             </div>
@@ -340,7 +345,7 @@
                     </div>
                 </div>
                 <hr />
-                <div class="row-fluid">
+                <div class="row-fluid fadeInDown animated">
                     <div class="span12">
                         <div class="highlighted-box center">
                             <h1>Join MYP</h1>
@@ -358,6 +363,54 @@
             </div>
         </div>
         <!-- About us section end -->
+        
+        
+        
+        <div id="partners" class="section secondary-section fadeInDown animated">
+            <div class="triangle"></div>
+            <div class="container centered">
+                <div class="title">
+                    <h1>Our Partners</h1>
+                </div>
+                    <div class="sub-section">
+                        <div class=" clearfix">
+                            <div class="pull-left">
+                                <h4>
+                                    "If You Want To Go Fast, Go Alone. If You Want To Go Far, Go Together"
+                                </h4>
+                            </div>
+                            <ul class="client-nav pull-right">
+                                <li id="partner-prev"></li>
+                                <li id="partner-next"></li>
+                            </ul>
+                        </div>
+                        <br />
+                        <ul class="row client-slider" id="partner-slider">
+                            <li>
+                                <a target="_blank" href="https://masemolafm.co.za/">
+                                    <img src="images/partners/mascomlogo.png" alt="Mascom FM">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/partners/BBMDO.png" alt="BBMDO">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/partners/regaogetswe_networks.jpg" alt="Regaogetswe Networks">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+        <div class="section secondary-section">
+            <div class="container centered">
+                <a href="#" class="button">Become a Partner</a>
+            </div>
+        </div>
+       
         
         
         <!-- Portfolio section start -->
@@ -771,7 +824,7 @@
                     <div class="sub-section">
                         <div class=" clearfix">
                             <div class="pull-left">
-                                <h4>Duis mollis placerat quam, eget laoreet tellus tempor eu. Quisque dapibus in purus in dignissim.</h4>
+                                <h4>MYP would never accomplish anything without the support of our donors. Below are a few who made our endeavors possible.</h4>
                             </div>
                             <ul class="client-nav pull-right">
                                 <li id="client-prev"></li>
@@ -781,8 +834,8 @@
                         <br />
                         <ul class="row client-slider" id="clint-slider">
                             <li>
-                                <a href="">
-                                    <img src="images/clients/ClientLogo01.png" alt="client logo 1">
+                                <a target="_blank" href="https://www.multotec.com/">
+                                    <img src="images/donors/multotec.jpg" alt="Multotec">
                                 </a>
                             </li>
                             <li>
@@ -795,40 +848,22 @@
                                     <img src="images/clients/ClientLogo03.png" alt="client logo 3">
                                 </a>
                             </li>
-                            <li>
-                                <a href="">
-                                    <img src="images/clients/ClientLogo04.png" alt="client logo 4">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <img src="images/clients/ClientLogo05.png" alt="client logo 5">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <img src="images/clients/ClientLogo02.png" alt="client logo 6">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <img src="images/clients/ClientLogo04.png" alt="client logo 7">
-                                </a>
-                            </li>
                         </ul>
                     </div>
             </div>
         </div>
         <div class="section secondary-section">
-            <div class="triangle"></div>
-            <div class="container centered">
-                <p class="large-text">Elegance is not the abundance of simplicity. It is the absence of complexity.</p>
+            <div class="container centered fadeInDown animated">
+                <p class="large-text ">
+                    MYP is a Non-Profitable Organisation that solely relies on donations, sponsors and community contributions. 
+                    All financial and/or material resources are most welcome and heartily appreciated.
+                </p>
                 <a href="#" class="button">Become a Donor</a>
             </div>
         </div>
        
         <!-- Newsletter section start -->
-        <div class="section third-section">
+        <div class="section third-section" hidden>
             <div class="triangle"></div>
             <div class="container newsletter">
                 <div class="sub-section">
@@ -862,15 +897,17 @@
                 <div class="container">
                     <div class="title">
                         <h1>Contact Us</h1>
-                        <p>Duis mollis placerat quam, eget laoreet tellus tempor eu. Quisque dapibus in purus in dignissim.</p>
+                        <p>
+                            We believe in engagement, we welcome all questions, suggestions and comments. Please feel free to get in touch.
+                        </p>
                     </div>
                 </div>
                 <div class="map-wrapper">
                     <div class="map-canvas" id="map-canvas">Loading map...</div>
                     <div class="container">
                         <div class="row-fluid">
-                            <div class="span5 contact-form centered">
-                                <h3>Say Hello</h3>
+                            <div class="span4 contact-form centered">
+                                <h3>General Enquiries</h3>
                                 <div id="successSend" class="alert alert-success invisible">
                                     <strong>Well done!</strong>Your message has been sent.</div>
                                 <div id="errorSend" class="alert alert-error invisible">There was an error.</div>
@@ -878,19 +915,19 @@
                                     <div class="control-group">
                                         <div class="controls">
                                             <input class="span12" type="text" id="name" name="name" placeholder="* Your name..." />
-                                            <div class="error left-align" id="err-name">Please enter name.</div>
+                                            <div class="error left-align" id="err-name">Please enter your name.</div>
                                         </div>
                                     </div>
                                     <div class="control-group">
                                         <div class="controls">
                                             <input class="span12" type="email" name="email" id="email" placeholder="* Your email..." />
-                                            <div class="error left-align" id="err-email">Please enter valid email adress.</div>
+                                            <div class="error left-align" id="err-email">Please enter a valid email adress.</div>
                                         </div>
                                     </div>
                                     <div class="control-group">
                                         <div class="controls">
-                                            <textarea class="span12" name="comment" id="comment" placeholder="* Comments..."></textarea>
-                                            <div class="error left-align" id="err-comment">Please enter your comment.</div>
+                                            <textarea class="span12" name="comment" id="comment" placeholder="* Question"></textarea>
+                                            <div class="error left-align" id="err-comment">Please enter your question.</div>
                                         </div>
                                     </div>
                                     <div class="control-group">
