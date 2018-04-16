@@ -257,8 +257,10 @@ $("#send-mail").click(function () {
                         $("#name").val('');
                         $("#email").val('');
                         $("#comment").val('');
+                        setFormHeader('formHeader');
                     } else {
                         $('#errorSend').show();
+                        setFormHeader('formHeader');
                     }
                 }
             });
@@ -268,7 +270,9 @@ $("#send-mail").click(function () {
         return false; // stops user browser being directed to the php file
     });
 
-
+    function setFormHeader(x){
+        $('#' + x).hide(200);
+    }
 
     //Function for show or hide portfolio desctiption.
     $.fn.showHide = function (options) {
@@ -305,10 +309,18 @@ $("#send-mail").click(function () {
     /************************
     Animate elements
     *************************/
+   
+    jQuery('#address').bind('inview', function (event, visible) {
+        if (visible === true) {
+            jQuery('#address').addClass("animated pulse");
+        } else {
+            jQuery('#address').removeClass("animated pulse");
+        }
+    });
     
     //Animate thumbnails 
     jQuery('.thumbnail').one('inview', function (event, visible) {
-        if (visible == true) {
+        if (visible === true) {
             jQuery(this).addClass("animated fadeInDown");
         } else {
             jQuery(this).removeClass("animated fadeInDown");
@@ -317,7 +329,7 @@ $("#send-mail").click(function () {
 
     //Animate triangles
     jQuery('.triangle').bind('inview', function (event, visible) {
-        if (visible == true) {
+        if (visible === true) {
             jQuery(this).addClass("animated fadeInDown");
         } else {
             jQuery(this).removeClass("animated fadeInDown");
@@ -343,16 +355,76 @@ $("#send-mail").click(function () {
     });
 
     //animate thrid team member
-    jQuery('#third-person').bind('inview', function (event, visible) {
+    jQuery('#1-person').bind('inview', function (event, visible) {
         if (visible == true) {
-            jQuery('#third-person').addClass("animated pulse");
+            jQuery('#1-person').addClass("animated pulse");
         } else {
-            jQuery('#third-person').removeClass("animated pulse");
+            jQuery('#1-person').removeClass("animated pulse");
+        }
+    });
+    jQuery('#2-person').bind('inview', function (event, visible) {
+        if (visible == true) {
+            jQuery('#2-person').addClass("animated pulse");
+        } else {
+            jQuery('#2-person').removeClass("animated pulse");
+        }
+    });    
+    jQuery('#3-person').bind('inview', function (event, visible) {
+        if (visible == true) {
+            jQuery('#3-person').addClass("animated pulse");
+        } else {
+            jQuery('#3-person').removeClass("animated pulse");
+        }
+    });
+    jQuery('#4-person').bind('inview', function (event, visible) {
+        if (visible == true) {
+            jQuery('#4-person').addClass("animated pulse");
+        } else {
+            jQuery('#4-person').removeClass("animated pulse");
+        }
+    });
+    jQuery('#5-person').bind('inview', function (event, visible) {
+        if (visible == true) {
+            jQuery('#5-person').addClass("animated pulse");
+        } else {
+            jQuery('#5-person').removeClass("animated pulse");
+        }
+    });
+    jQuery('#6-person').bind('inview', function (event, visible) {
+        if (visible == true) {
+            jQuery('#6-person').addClass("animated pulse");
+        } else {
+            jQuery('#6-person').removeClass("animated pulse");
+        }
+    });
+    
+    
+    jQuery('.span4').bind('inview', function (event, visible) {
+        if (visible == true) {
+            jQuery(this).addClass("animated pulse");
+        } else {
+            jQuery(this).removeClass("animated pulse");
+        }
+    });
+    
+    jQuery('.title').bind('inview', function (event, visible) {
+        if (visible == true) {
+            jQuery(this).addClass("animated fadeInDown");
+        } else {
+            jQuery(this).removeClass("animated fadeInDown");
         }
     });
     
     //Animate price columns
-    jQuery('.price-column, .testimonial').bind('inview', function (event, visible) {
+    jQuery('.sub-section').bind('inview', function (event, visible) {
+        if (visible == true) {
+            jQuery(this).addClass("animated fadeInDown");
+        } else {
+            jQuery(this).removeClass("animated fadeInDown");
+        }
+    });
+    
+    jQuery('.testimonial').bind('inview', function (event, visible) {
         if (visible == true) {
             jQuery(this).addClass("animated fadeInDown");
         } else {
@@ -381,17 +453,32 @@ $("#send-mail").click(function () {
     });
 });
 
+
+
 //Initialize google map for contact setion with your location.
 
 function initializeMap() {
-
-    var lat = '44.8164056'; //Set your latitude.
-    var lon = '20.46090424'; //Set your longitude.
+    
+    /*
+    var uluru = {lat: -25.363, lng: 131.044};
+    
+    var map = new google.maps.Map(document.getElementById('map-canvas'), {
+        zoom: 4,
+        center: uluru
+    });
+    
+    var marker = new google.maps.Marker({
+        position: uluru,
+        map: map
+    }); */
+   
+    var lat = '-25.6564799'; //Set your latitude.
+    var lon = '28.133144'; //Set your longitude.
 
     var centerLon = lon - 0.0105;
 
     var myOptions = {
-        scrollwheel: false,
+        scrollwheel: true,
         draggable: false,
         disableDefaultUI: true,
         center: new google.maps.LatLng(lat, centerLon),
@@ -403,17 +490,16 @@ function initializeMap() {
     var map = new google.maps.Map(document.getElementById('map-canvas'), myOptions);
     var marker = new google.maps.Marker({
         map: map,
-        position: new google.maps.LatLng(lat, lon),
-
+        position: new google.maps.LatLng(lat, lon)
     });
 
     var infowindow = new google.maps.InfoWindow({
-        content: "Your content goes here!"
+        content: "Masemola Young Professionals"
     });
 
     google.maps.event.addListener(marker, 'click', function () {
         infowindow.open(map, marker);
     });
 
-    infowindow.open(map, marker);
+    infowindow.open(map, marker); 
 }

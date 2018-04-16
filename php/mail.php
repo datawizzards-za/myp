@@ -9,17 +9,19 @@ if (!empty($_POST)){
   $_POST  = multiDimensionalArrayMap('cleanData', $_POST);
 
   //your email adress 
-  $emailTo ="yourmail@yoursite.com"; //"yourmail@yoursite.com";
-
-  //from email adress
-  $emailFrom ="contact@yoursite.com"; //"contact@yoursite.com";
-
-  //email subject
-  $emailSubject = "Mail from Porta";
+  $emailTo = "info@myp1060.org.za"; //"yourmail@yoursite.com";
 
   $name = $_POST["name"];
   $email = $_POST["email"];
   $comment = $_POST["comment"];
+  $subject = $_POST["subject"];
+  
+  
+  //email subject
+  $emailSubject = "Mail from ".$name;
+  //from email adress
+  $emailFrom = $email;
+  
   if($name == "")
    $data['success'] = false;
  
@@ -27,6 +29,9 @@ if (!empty($_POST)){
    $data['success'] = false;
 
 
+ if($subject == "")
+   $subject['success'] = false;
+ 
  if($comment == "")
    $data['success'] = false;
 
@@ -34,6 +39,7 @@ if (!empty($_POST)){
 
   $message = "NAME: $name<br>
   EMAIL: $email<br>
+  SUBJECT: $subject<br>
   COMMENT: $comment";
 
 
